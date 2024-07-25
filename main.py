@@ -10,7 +10,7 @@ import random
 
 
 app = dash.Dash(__name__)
-
+server = app.server
 
 app.layout = html.Div(style={'backgroundColor': 'black', 'padding': '40px', 'margin': '0', 'height': '100%', 'width': '100%'},
     children=[
